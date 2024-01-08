@@ -28,7 +28,8 @@ button:hover {
     background: #f13961;
 }
 
-header {
+header,
+#hot-deal {
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -80,7 +81,7 @@ header {
     vertical-align: middle;
 }
 
-#feature {
+#featured {
     padding: 100px 0px;
 }
 
@@ -126,4 +127,67 @@ header {
     line-height: 35px;
     /* 145.833% */
     text-decoration-line: underline;
+}
+
+#hot-deal{
+    margin-top: 128px;
+    padding-top: 100px;
+}
+.hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#hot-deal .hot-deal-text {
+    width: 75%;
+    max-width: 450px;
+    text-align: center;
+
+}
+
+#hot-deal .hot-deal-text *{
+    margin-bottom: 24px;
+}
+
+#hot-deal .hot-deal-text h2 {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#hot-deal .hot-deal-text h2 .imp{
+    color: #E55473;
+}
+
+#hot-deal .hot-deal-img{
+    max-width: 318px;
+
+}
+
+#newsletter{
+    margin: 128px 0;
+}
+
+.newsletter-main{
+    background-image: url("/images/newsletter-bg.png");
+    padding: 112px 0;
+}
+
+.newsletter-form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
 }
